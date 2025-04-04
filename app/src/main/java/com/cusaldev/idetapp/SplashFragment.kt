@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import com.cusaldev.idetapp.databinding.FragmentSplashBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,6 +19,9 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class SplashFragment : Fragment() {
+
+    private lateinit var binding: FragmentSplashBinding
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -33,8 +38,14 @@ class SplashFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_splash, container, false)
+
+        binding = FragmentSplashBinding.inflate(layoutInflater)
+
+        binding.splashImgBtn.setOnClickListener {
+            findNavController().navigate(R.id.action_splashFragment_to_firstFragment)
+        }
+
+        return binding.root
     }
 
     companion object {
