@@ -45,7 +45,7 @@ class SecondFragment : Fragment() {
 
         binding = FragmentSecondBinding.inflate(layoutInflater,container,false)
         binding.imgBtnNext.setOnClickListener {
-            findNavController().navigate(R.id.action_secondFragment_to_homeActivity)
+            findNavController().navigate(R.id.action_secondFragment_to_bottomBarActivity)
         }
 
         binding.imgBtnBack.setOnClickListener {

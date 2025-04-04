@@ -61,14 +61,14 @@
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out" />
         <action
-            android:id="@+id/action_secondFragment_to_homeActivity"
-            app:destination="@id/homeActivity"
+            android:id="@+id/action_secondFragment_to_bottomBarActivity"
+            app:destination="@id/bottomBarActivity"
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out" />
     </fragment>
     <activity
-        android:id="@+id/homeActivity"
-        android:name="com.cusaldev.idetapp.HomeActivity"
-        android:label="activity_home"
-        tools:layout="@layout/activity_home" />
+        android:id="@+id/bottomBarActivity"
+        android:name="com.cusaldev.idetapp.bottomBar.BottomBarActivity"
+        android:label="activity_bottom_bar"
+        tools:layout="@layout/activity_bottom_bar" />
 </navigation>
