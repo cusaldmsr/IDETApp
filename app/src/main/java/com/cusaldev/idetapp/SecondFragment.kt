@@ -6,8 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.cusaldev.idetapp.databinding.FragmentFirstBinding
 import com.cusaldev.idetapp.databinding.FragmentSecondBinding
+import androidx.navigation.fragment.navArgs
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -22,6 +23,8 @@ private const val ARG_PARAM2 = "param2"
 class SecondFragment : Fragment() {
 
     private lateinit var binding: FragmentSecondBinding
+    private val args: SecondFragmentArgs by navArgs<SecondFragmentArgs>()
+
 
     // TODO: Rename and change types of parameters
     private var param1: String? = null
@@ -40,7 +43,7 @@ class SecondFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        binding = FragmentSecondBinding.inflate(layoutInflater)
+        binding = FragmentSecondBinding.inflate(layoutInflater,container,false)
         binding.imgBtnNext.setOnClickListener {
             findNavController().navigate(R.id.action_secondFragment_to_homeActivity)
         }
@@ -48,6 +51,11 @@ class SecondFragment : Fragment() {
         binding.imgBtnBack.setOnClickListener {
             findNavController().navigate(R.id.action_secondFragment_to_firstFragment)
         }
+
+        val fname = args.fname
+        val lname = args.lname
+
+        binding.txtUserName.text = fname +" "+ lname
 
         return binding.root
     }

@@ -21,7 +21,17 @@
         tools:layout="@layout/fragment_first" >
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+            app:destination="@id/secondFragment">
+            <argument
+                android:name="fname"
+                android:defaultValue="Kusal"
+                app:argType="string" />
+            <argument
+                android:name="lname"
+                android:defaultValue="Damsara"
+                app:argType="string" />
+        </action>
+
         <action
             android:id="@+id/action_firstFragment_to_splashFragment"
             app:destination="@id/splashFragment" />
@@ -31,6 +41,14 @@
         android:name="com.cusaldev.idetapp.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
+        <argument
+            android:name="fname"
+            android:defaultValue="Kusal"
+            app:argType="string" />
+        <argument
+            android:name="lname"
+            android:defaultValue="Meleesha"
+            app:argType="string" />
         <action
             android:id="@+id/action_secondFragment_to_firstFragment"
             app:destination="@id/firstFragment" />

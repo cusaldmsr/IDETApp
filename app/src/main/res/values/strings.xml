@@ -4,6 +4,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="assignment_03">Assignment 03</string>
     <string name="txtname">Name</string>
-    <string name="labelname">Name</string>
+    <string name="labelFirstName">First Name</string>
+    <string name="labelLastName">Last Name</string>
     <string name="hi">Hi,</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
 </resources>

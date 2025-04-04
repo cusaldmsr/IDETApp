@@ -39,9 +39,13 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        binding = FragmentFirstBinding.inflate(layoutInflater)
+        binding = FragmentFirstBinding.inflate(layoutInflater,container,false)
         binding.imgBtnNext.setOnClickListener {
-            findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
+            val fname = binding.txtNameFirst.text.toString()
+            val lname = binding.txtNameLast.text.toString()
+
+            val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(fname, lname)
+            findNavController().navigate(action)
         }
 
         binding.imgBtnBack.setOnClickListener {

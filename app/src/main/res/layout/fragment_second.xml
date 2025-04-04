@@ -23,10 +23,10 @@
 
     <TextView
         android:id="@+id/txtUserName"
-        android:layout_width="321dp"
-        android:layout_height="105dp"
+        android:layout_width="314dp"
+        android:layout_height="72dp"
         android:fontFamily="@font/cagliostro"
-        android:textSize="96sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
