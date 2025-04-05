@@ -1,7 +1,7 @@
 <div align="center">
 
 
-<img src="https://github.com/user-attachments/assets/cfad8cc2-2529-422f-bd20-120f03ccb2e7" width = "300">
+<img src="Github Assets/githubAndroidImg.png" width = "300">
 </div>
 <div align="center">
 
@@ -34,23 +34,23 @@ This app showcases:
 
 <div align="center">
   <h2 align="center">Splash Fragment | First Fragment | Second Fragment</h2>
-<img src="https://github.com/user-attachments/assets/c3827b8e-7683-4ca7-8858-09244d649ab8" width = "220">
-<img src="https://github.com/user-attachments/assets/5530a74a-e96d-48ae-8c1b-a53f7657c6d9" width = "220">
-  <img src="https://github.com/user-attachments/assets/f03e8c00-f9b5-4a64-9f24-7155266f963f" width = "220">
+<img src="Github Assets/splashImgUI.jpg" width = "220">
+<img src="Github Assets/firstFragImgUI.jpg" width = "220">
+  <img src="Github Assets/secondFragImgUI.jpg" width = "220">
 </div>
   <div align="center">
     <h2 align="center">Fragments with TabLayout</h2>
-  <img src="https://github.com/user-attachments/assets/33a921c2-f005-4ca5-b1d8-0061c7cab52d" width = "220">
-  <img src="https://github.com/user-attachments/assets/aa293452-ab8b-45d9-9d31-e7b5b45c1b5a" width = "220">
-  <img src="https://github.com/user-attachments/assets/ef59161c-077d-4505-9edd-08e3174fa2b9" width = "220">
-  <img src="https://github.com/user-attachments/assets/49773d59-68e5-476d-bb4a-a0c411d445ff" width = "220">
+  <img src="Github Assets/tabLayoutHomeFragImgUI.jpg" width = "220">
+    <img src="Github Assets/tabLayoutFriendsFragImgUI.jpg" width = "220">
+    <img src="Github Assets/tabLayoutVideoFragImgUI.jpg" width = "220">
+    <img src="Github Assets/tabLayoutChatFragImgUI.jpg" width = "220">
     </div>
   <div align="center">
     <h2 align="center">Fragment with bottom navigation bar</h2>
-  <img src="https://github.com/user-attachments/assets/b4535436-1e55-4bce-ace6-82946d2a4a66" width = "220">
-  <img src="https://github.com/user-attachments/assets/84561e6d-1077-4231-b010-dcc0ce20fde4" width = "220">
-  <img src="https://github.com/user-attachments/assets/279c1229-002b-4ea6-a0db-0bb70c1fb74b" width = "220">
-  <img src="https://github.com/user-attachments/assets/f53770f9-69b0-47ee-9dec-f100cd4b4643" width = "220">
+  <img src="Github Assets/bottomNavHomeFragImgUI.jpg" width = "220">
+  <img src="Github Assets/bottomNavFriendsFragImgUI.jpg" width = "220">
+    <img src="Github Assets/bottomNavVideoFragImgUI.jpg" width = "220">
+    <img src="Github Assets/bottomNavChatFragImgUI.jpg" width = "220">
 </div>
 
 ## 🛠️ Getting Started
