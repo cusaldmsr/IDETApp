@@ -65,10 +65,18 @@
             app:destination="@id/bottomBarActivity"
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_secondFragment_to_tabLayActivity"
+            app:destination="@id/tabLayActivity" />
     </fragment>
     <activity
         android:id="@+id/bottomBarActivity"
         android:name="com.cusaldev.idetapp.bottomBar.BottomBarActivity"
         android:label="activity_bottom_bar"
         tools:layout="@layout/activity_bottom_bar" />
+    <activity
+        android:id="@+id/tabLayActivity"
+        android:name="com.cusaldev.idetapp.TabLayActivity"
+        android:label="activity_tab_lay"
+        tools:layout="@layout/activity_tab_lay" />
 </navigation>

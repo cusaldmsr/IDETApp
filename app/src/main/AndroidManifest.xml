@@ -13,10 +13,13 @@
         android:theme="@style/Theme.IDETApp"
         tools:targetApi="31">
         <activity
+            android:name=".TabLayActivity"
+            android:exported="false" />
+        <activity
             android:name=".bottomBar.BottomBarActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".HomeTabActivity"
             android:exported="false" />
         <activity
             android:name=".MasterActivity"
